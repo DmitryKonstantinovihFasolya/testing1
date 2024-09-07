@@ -1,0 +1,495 @@
+@font-face {
+    font-family: "Georgia-Bold";
+    font-weight: bold;
+    font-style: normal;
+    src: local("Georgia");
+    url:("./libs/fonts/Georgia.woff") format("woff") url("./libs/fonts/Georgia.woff2") formatd("woff2")
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li,
+ul {
+    list-style: none;
+    margin: 30 px;
+}
+
+
+
+
+
+/*first экран start */
+
+
+/*Header styles start*/
+.header {
+    width: 100%;
+    /* height: 85px; */
+    background-color: #fff;
+    
+}
+
+.container {
+    max-width: 1370px;
+    max-height: 80px;
+    margin: 0 auto;
+    
+}
+
+
+
+
+
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header__menu {
+    word-spacing: 72px;
+}
+
+.menu_list {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    width: 560px;
+
+}
+
+
+.auth__menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu_link {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 35px;
+    color: black;
+
+}
+
+.trial_button {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 85px;
+    color: white;
+    background-color: #01996D;
+    border-radius: 4px;
+    margin-left: 40px;
+    padding: 13px 50px;
+    margin-right: 90px;
+}
+
+.login {
+    text-decoration: none;
+    
+}
+
+/*Header styles end*/
+
+/*Section 1 start*/
+
+.section_block--bg {
+    margin-top: 25px;
+    height: 895px;
+    background: url(../img/Задний\ фон.png) no-repeat center;
+    /* padding-top: ; */
+}
+
+/*Section 1 start*/
+
+.title {
+    font-family: "Georgia";
+    font-size: 65px;
+    padding-top: 175px;
+    color: #01996D;
+    
+}
+
+.text-box {
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 53px;
+}
+
+.Find_Your_way {
+    font-family: "Lato";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    text-decoration: none;
+    margin-left: 85px;
+    color: white;
+    background-color: #01996D;
+    border-radius: 4px;
+    padding: 20px 50px;
+    margin-top: 53px;
+    margin: 0 auto;
+}
+
+.section_block--bg {
+    width: 1920px;
+    height: 980px;
+    margin-bottom: 31px;
+}
+
+/*first экран end */
+
+/*second экран start */
+
+
+.container2 {
+    max-width: 1413px;
+    width: 100%;
+    max-height: 1182px;
+    height: 100%;
+    margin-left: 275px;
+    margin-right: 275px;
+    writing-mode: horizontal-tb;
+    display: flex;
+}
+
+.how-it-works {
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 50px;
+}
+
+.green--title {
+    font-family: "Georgia";
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: #01996D;
+    width: 100%;
+    max-width: 530px;
+    max-height: 70px;
+
+}
+
+
+.text-left-title {
+    text-align: right;
+    max-width: 50%;
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.title-block {
+    display: flex;
+    align-items: center;
+}
+
+/*Personalize-container start */
+
+
+.info {
+    justify-content: center;
+    min-width: 1370px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.Personalize-title {
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 187px;
+    margin-bottom: 60px;
+    margin-left: 90px;
+    text-align: center;
+}
+
+.Personalize-text {
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 18px;
+    margin-bottom: 87px;
+    margin-left: 270px;
+}
+
+.Personalize-pic {
+    margin-top: 10px;
+    border-radius: 12px;
+    width: 95%;
+    height: 95%;
+    margin-left: 270px;
+}
+
+/*Personalize-container end */
+
+/*Write-Understand-container start */
+
+.Write-Understand-title {
+    font-family: "Georgia";
+    font-size: 25px;
+    margin-top: 182px;
+    margin-left: 70px;
+    text-align: center;
+}
+
+.Write-Understand-text {
+    font-family: "Lato";
+    font-weight: normal;
+    margin-top: 68px;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+
+.Write-Understand-pic {
+    margin-top: 43px;
+    margin-left: 70px;
+    width: 85%;
+    height: 85%;
+}
+
+
+
+/*Write-Understand-container end */
+
+/*Alivio!-container start */
+
+.Alivio-title {
+    font-family: "Georgia";
+    font-size: 30px;
+    margin-left: 70px;
+    margin-top: 187px;
+    text-align: center;
+    margin-bottom: 54px;
+    margin-right: 275px;
+}
+
+.Alivio-text {
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 18px;
+    margin-left: 70px;
+    margin-bottom: 105px;
+    margin-right: 275px;
+}
+
+.Alivio-pic {
+   
+    margin-left: 70px;
+    margin-right: 275px;
+}
+
+
+
+/*Alivio!-container end */
+
+/*second экран end */
+
+
+
+/*third экран start */
+
+.third-screen {
+    background-color: #245852;
+    display: flex;
+    padding: 228px 207px;
+    align-items: center;
+   width: 1920px;
+   height: 922px;
+   margin-top: 255px;
+    
+}
+
+.wrap-third-screen{
+    display: flex;
+    width: 100%;
+}
+
+
+.Lets-hear-title {
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 50px;
+    color: #fff;
+    
+}
+
+.Lets-hear-text {
+    font-family: "Lato";
+    font-weight: normal;
+    font-size: 25px;
+    color: #fff;
+    margin-top: 33px;
+}
+
+
+.Lets-get-started-button {
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    background-color: #01996D;
+    border-radius: 4px;
+    padding: 20px 50px;
+    width: 240px;
+    height: 65px;
+    margin-top: 57px;
+}
+
+.video-third-screen {
+    border-radius: 16.33px;
+    max-width: 700px;
+    margin-left: 35px;
+    max-height: 400px;
+    max-width: 800px;
+
+}
+
+/*third экран end */
+
+
+/*fourth экран start */
+
+
+.wrap-fourth-screen {
+    display: flex;
+}
+
+
+.fourth-csreen{
+    padding-left: 275px;
+    padding-right: 275px;
+
+}
+
+
+
+
+.our-product-title{
+    font-family: "Lato";
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 10px;
+    margin-top: 120px;
+}
+
+.green-text4{
+    font-family: "Georgia";
+    font-weight: bold;
+    font-size: 50px;
+    color: #01996D;
+    text-align: left;
+    margin-bottom: 20px;
+    line-height: 157%;
+
+    
+}
+
+.text4-1{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    margin-bottom: 40px;
+    
+}
+
+.fourth-screen-button{
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 20px;
+    color: #fff;
+    background-color: #01996D;
+    width: 227px;
+    height: 65px;
+    padding: 20px 50px;
+    
+    border-radius: 4px;
+    margin-top: 40px;
+}
+
+.img-4-screen{
+    margin-top: 120px;
+    margin-left: 137.5px;
+    margin-right: 87px;
+    margin-bottom: 168px;
+}
+
+
+
+
+.fourth-screen{
+    width: 100%;
+    
+}
+
+
+/*fourth экран end */
+
+/*podval start */
+
+.podval{
+    background-color: #245852;
+}
+
+
+.Alivio-logo-white{
+    margin-left: 275px;
+    padding-top: 105px;
+
+}
+
+
+.text-podval{
+   font-family: "Lato";
+   font-weight: 400;
+   font-size: 25px;
+   color: #fff;
+   margin-left: 275px;
+}
+
+.why-alivio{
+  margin-top: 75px;
+  margin-bottom: 60px;
+  
+}
+
+.solutions{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.community{
+    margin-bottom: 60px;
+}
+
+
+.pricing{
+    padding-bottom: 144px;
+}
+
+
+/*podval end */
+ 
+
+/*its over */
+
